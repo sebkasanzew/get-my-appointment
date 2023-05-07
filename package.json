@@ -1,0 +1,27 @@
+{
+  "name": "get-my-appointment",
+  "version": "1.0.0",
+  "description": "Gets an appointment, where it's impossible to get one manually, because of other peoples bots",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts"
+  },
+  "keywords": [
+    "puppeteer",
+    "berlin",
+    "appointment"
+  ],
+  "author": "Sebastian Kasanzew",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "20.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.1.0",
+    "nodemon": "2.0.22",
+    "ts-node": "10.9.1",
+    "typescript": "5.0.4"
+  }
+}
